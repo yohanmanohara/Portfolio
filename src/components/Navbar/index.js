@@ -14,7 +14,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>YOHAN MANOHARA</Span>
+            <Span>YOHAN MANOHARA</Span>
           </a>
         </NavLogo>
         <MobileIcon>
