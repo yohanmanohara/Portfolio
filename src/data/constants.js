@@ -12,8 +12,8 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/10BeYxtB6IcG6G5iHkMOafuYOBS3lRtnW/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/yohan-manohara-a31a75273/",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  insta: "https://www.instagram.com/yohan_manohara/",
+  facebook: "https://www.facebook.com/yohanmanohara80/",
 };
 
 export const skills = [ 
