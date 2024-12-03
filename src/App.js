@@ -13,7 +13,6 @@
   import Education from "./components/Education";
   import ProjectDetails from "./components/ProjectDetails";
   import styled from "styled-components";
-  import { Analytics } from '@vercel/analytics/react';
 
 
   const Body = styled.div`
@@ -33,7 +32,6 @@
     console.log(openModal)
     return (
       <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-         <Analytics />
         <Router >
           <Navbar />
           <Body>
