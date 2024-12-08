@@ -124,19 +124,19 @@ const ContactButton = styled.input`
 
 const Contact = () => {
 
-  //hooks
+  
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
-    // e.preventDefault();
-    // emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
-    //   .then((result) => {
-    //     setOpen(true);
-    //     form.current.reset();
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+      e.preventDefault();
+      emailjs.sendForm('service_9em38pq', 'template_6urdau5', form.current, 'IlkU8fOrIVxRaY5c4')
+        .then((result) => {
+          setOpen(true);
+          form.current.reset();
+        }, (error) => {
+          console.log(error.text);
+        });
   }
 
 
